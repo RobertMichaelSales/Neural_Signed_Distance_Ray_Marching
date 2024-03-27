@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 #==============================================================================
 # Import user-defined libraries 
 
-from network_decoder_copy import DecodeParameters,DecodeArchitecture,AssignParameters
-from network_model_copy import ConstructNetworkBASIC
+from network_decoder import DecodeParameters,DecodeArchitecture,AssignParameters
+from network_model   import ConstructNetwork
 
 #==============================================================================
 # Useful documentation
